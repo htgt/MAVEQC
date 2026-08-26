@@ -18,7 +18,7 @@ build-docker:
   stage: build
   image: docker:26.0.1
   tags:
-    - autoscale
+    - autoscale-v2
   services:
     - name: docker:26.0.1-dind
   before_script:
